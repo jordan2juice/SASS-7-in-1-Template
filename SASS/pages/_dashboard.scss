@@ -1,0 +1,21 @@
+body {
+  margin: 3px;
+}
+
+.dashboard {
+  @include input;
+  @include layout;
+  @include flexbox;
+  @include colors;
+  display: block;
+  width: 100%;
+  height: calc(100% - 100px);
+}
+
+h1 {
+  @include typography;
+}
+
+.post {
+  @include colors;
+}
